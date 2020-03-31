@@ -1,4 +1,4 @@
-export class Profile {
+export interface IProfile {
   fullName: string;
   title: string;
   email: string;

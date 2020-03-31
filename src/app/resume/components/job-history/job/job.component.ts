@@ -1,5 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { Job } from '../models/job';
+import { Component, Input, OnInit } from '@angular/core';
+import { IJob } from '../../../models/job';
 
 @Component({
   selector: 'app-resume-job',
@@ -8,7 +8,7 @@ import { Job } from '../models/job';
 })
 export class JobComponent implements OnInit {
 
-  @Input() job: Job;
+  @Input() job: IJob;
 
   constructor() { }
 

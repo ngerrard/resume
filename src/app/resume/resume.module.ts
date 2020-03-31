@@ -1,10 +1,10 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { JobHistoryComponent } from './components/job-history/job-history.component';
+import { JobComponent } from './components/job-history/job/job.component';
+import { ProfileComponent } from './components/profile/profile.component';
+import { SkillsComponent } from './components/skills/skills.component';
 import { ResumeComponent } from './resume.component';
-import { ProfileComponent } from './profile/profile.component';
-import { JobHistoryComponent } from './job-history/job-history.component';
-import { SkillsComponent } from './skills/skills.component';
-import { JobComponent } from './job-history/job/job.component';
 
 
 

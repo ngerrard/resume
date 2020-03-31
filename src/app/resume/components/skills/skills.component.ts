@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { SkillsService } from './services/skills.service';
 import { Observable } from 'rxjs';
+import { SKILLS } from '../../data/mock-skills';
+import { ResumeDataService } from '../../services/resume-data.service';
 
 @Component({
   selector: 'app-resume-skills',
@@ -10,10 +11,10 @@ import { Observable } from 'rxjs';
 export class SkillsComponent implements OnInit {
   skills$: Observable<string[]>;
 
-  constructor(private skillsService: SkillsService) { }
+  constructor(private skillsService: ResumeDataService) { }
 
   ngOnInit(): void {
-    this.skills$ = this.skillsService.getSkills();
+    this.skills$ = this.skillsService.getData(SKILLS);
   }
 
 }

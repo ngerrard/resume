@@ -1,6 +1,6 @@
-import { Job } from '../models/job';
+import { IJob } from '../models/job';
 
-export const JOBHISTORY: Job[] = [
+export const JOBHISTORY: IJob[] = [
   {
     company: 'MaritzCX - An InMoment Company',
     title: 'Senior Software Engineer',

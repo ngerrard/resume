@@ -1,4 +1,4 @@
-export class Job {
+export interface IJob {
   company: string;
   title: string;
   startDate: Date;

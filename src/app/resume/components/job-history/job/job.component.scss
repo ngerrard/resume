@@ -21,3 +21,8 @@ h3 {
 .timespan {
   float: right;
 }
+@media print {
+  .job {
+    page-break-inside: avoid;
+  }
+}
