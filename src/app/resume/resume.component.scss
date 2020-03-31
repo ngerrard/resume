@@ -1,0 +1,14 @@
+@media screen {
+  .resumeContainer {
+      padding: 2rem 5rem;
+  }
+  hr {
+      border: none;
+      border-bottom: 1px solid black;
+  }
+}
+@media print {
+  .resumeContainer {
+      padding: 0 .25in;
+  }
+}

@@ -1,0 +1,17 @@
+<header *ngIf="profile$ | async as profile">
+  <h1>{{profile?.fullName}}</h1>
+  <h2>{{profile?.title}}</h2>
+  <section>
+    <span>
+      <a href="mailto::{{profile?.email}}">{{profile?.email}}</a>
+    </span>
+    <span>&bull;</span>
+    <span>
+      <a routerLink="/">{{profile?.website}}</a>
+    </span>
+    <span>&bull;</span>
+    <span>
+      {{profile?.location}}
+    </span>
+  </section>
+</header>

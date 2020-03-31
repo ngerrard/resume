@@ -1,0 +1,23 @@
+h3 {
+  margin: 0;
+  padding: 0;
+}
+.job {
+  padding: 1rem 0 0 0;
+}
+.job section {
+  padding: .2rem 0 .5rem 0;
+}
+.job section::after {
+  clear: both;
+}
+.company {
+  float: left;
+  width: 16rem;
+}
+.location {
+  float: left;
+}
+.timespan {
+  float: right;
+}

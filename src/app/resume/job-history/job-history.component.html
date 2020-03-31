@@ -1,0 +1,4 @@
+<h3>EXPERIENCE</h3>
+<section *ngFor="let job of jobs$ | async">
+  <app-resume-job [job]="job"></app-resume-job>
+</section>
