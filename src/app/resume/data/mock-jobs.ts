@@ -5,7 +5,7 @@ export const JOBHISTORY: IJob[] = [
     company: 'MaritzCX - An InMoment Company',
     title: 'Senior Software Engineer',
     startDate: new Date('06/1/2018'),
-    endDate: new Date(),
+    endDate: new Date('8/17/2020'),
     location: 'Lehi, UT',
     description: `I worked with a team of 8 to develop the next generation of reporting software for the MaritzCX
         survey platform. The software allows select users to create custom components that can be displayed on a
