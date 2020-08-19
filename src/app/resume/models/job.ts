@@ -5,5 +5,5 @@ export interface IJob {
   endDate: Date;
   location: string;
   description: string;
-  acheivements: string[];
+  skills: string[];
 }

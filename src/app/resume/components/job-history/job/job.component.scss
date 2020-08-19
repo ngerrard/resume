@@ -4,12 +4,12 @@ h3 {
 }
 .job {
   padding: 1rem 0 0 0;
-}
-.job section {
-  padding: .2rem 0 .5rem 0;
-}
-.job section::after {
-  clear: both;
+  section.header {
+    padding: .2rem 0 .5rem 0;
+  }
+  section::after {
+    clear: both;
+  }
 }
 .company {
   float: left;
@@ -20,6 +20,19 @@ h3 {
 }
 .timespan {
   float: right;
+}
+.description {
+  p {
+    margin-bottom: 0;
+  }
+}
+.skills {
+  height: 1rem;
+  display: block;
+  margin-top: .3rem;
+  .bold {
+    font-weight: bold;
+  }
 }
 @media print {
   .job {
