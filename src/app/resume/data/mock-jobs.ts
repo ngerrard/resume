@@ -34,7 +34,8 @@ export const JOBHISTORY: IJob[] = [
       'React',
       'Docker',
       'Node',
-      'RethinkDB'
+      'RethinkDB',
+      'Elasticsearch'
     ]
   },
   {
