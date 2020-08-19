@@ -4,6 +4,7 @@ export const SKILLS: string[] = [
   'ElasticSearch',
   'Docker',
   'React',
+  'Typescript',
   '.NET Core',
   'Microsoft SQL',
   'Kubernettes',
