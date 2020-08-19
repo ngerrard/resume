@@ -8,8 +8,7 @@ export const SKILLS: string[] = [
   '.NET Core',
   'Microsoft SQL',
   'Kubernettes',
-  'Vue',
-  'Node JS',
+  'Node.js',
   'Redis',
   'Windows Services',
   'Redux',
@@ -18,6 +17,5 @@ export const SKILLS: string[] = [
   'Console Applications',
   'HTML',
   'JavaScript',
-  'mySQL',
-  'Windows Forms',
+  'mySQL'
 ];
