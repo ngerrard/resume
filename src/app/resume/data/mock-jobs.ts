@@ -51,6 +51,7 @@ export const JOBHISTORY: IJob[] = [
       skills: [
         'AngularJS 1.x',
         'Angular 2',
+        'Typescript',
         'C#',
         'VB.NET',
         'WebForms',
@@ -70,7 +71,15 @@ export const JOBHISTORY: IJob[] = [
           orders and change some basic account settings. The website and back end code implemented multiple design
           patterns including inversion of control using Castle Windsor, repository pattern, factory pattern, model
           view controller, model view view model, and many more.`,
-      skills: []
+      skills: [
+        'C#',
+        'VB.NET',
+        'WebForms',
+        'MVC',
+        'KnockoutJS',
+        'JQuery',
+        'Microsoft SQL'
+      ]
   },
   {
       company: 'Academy Mortgage Corporation',
@@ -80,7 +89,12 @@ export const JOBHISTORY: IJob[] = [
       location: 'Sandy, UT',
       description: `I worked on a team to implement a new website to facilitate communication between appraisers and
           loan officers. I created console applications, and made changes to the website as needed.`,
-      skills: []
+      skills: [
+        'C#',
+        'MVC',
+        'JQuery',
+        'Microsoft SQL'
+      ]
   },
   {
       company: 'Dialogue Marketing',
@@ -96,7 +110,15 @@ export const JOBHISTORY: IJob[] = [
           those projects into ASP.NET MVC projects. I created a multi-threaded Windows Service to import and export data
           from a Microsoft SQL 2008 database using the Entity Framework. During my time at Dialogue Marketing I worked on
           projects for Hostess, Nestle, Frito Lay, South American Foods, Select Quote, Medicare Compare, Broadview, and Great Call.`,
-      skills: []
+      skills: [
+        'C#',
+        'VB.NET',
+        'WebForms',
+        'MVC',
+        'KnockoutJS',
+        'JQuery',
+        'Microsoft SQL'
+      ]
   },
   {
       company: 'NetSteps',
@@ -108,22 +130,14 @@ export const JOBHISTORY: IJob[] = [
           Fields, and Natura. I worked on various client teams to fix bugs and deploy new features using a combination
           of ASP.NET 4.0, Web Forms, MVC, JQuery, Silverlight, WCF, and SQL 2008. As my product knowledge grew I was
           placed on a maintenance team which performed work for six different clients.`,
-      skills: []
-  },
-  {
-      company: 'Sonic Innovations',
-      title: 'Programmer/Analyst',
-      startDate: new Date('01/01/2008'),
-      endDate: new Date('08/01/2009'),
-      location: 'Salt Lake City, UT',
-      description: `Sonic Innovations is a global manufacturer and distributor of superior hearing products. I create
-          new desktop and web applications for both internal and external customers. Many of the applications read and
-          update data from multiple SQL and Progress databases. I gather application requirements, create and modify
-          existing VB.NET applications, create documentation for the applications, and create test and implementation
-          plans for the applications. During my time at Sonic I have converted our order entry and shipping applications
-          from VB 6 to VB.NET, added payment processing to our eCommerce website, and created numerous new applications
-          using VB.NET. Recently I worked on an Agile development team to create a new retail application for our hearing
-          aid clinics. The retail application uses the MVC design pattern and is implemented using ASP.NET, C#, Javascript, and LINQ.`,
-      skills: []
+      skills: [
+        'C#',
+        'WebForms',
+        'MVC',
+        'WPF',
+        'Silverlight',
+        'JQuery',
+        'Microsoft SQL'
+      ]
   }
 ];
