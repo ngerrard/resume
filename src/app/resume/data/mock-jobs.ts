@@ -116,7 +116,6 @@ export const JOBHISTORY: IJob[] = [
         'VB.NET',
         'WebForms',
         'MVC',
-        'KnockoutJS',
         'JQuery',
         'Microsoft SQL'
       ]
