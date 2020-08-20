@@ -1,7 +1,7 @@
 export const SKILLS: string[] = [
   'Angular',
   'C#',
-  'ElasticSearch',
+  'Elasticsearch',
   'Docker',
   'React',
   'Typescript',
