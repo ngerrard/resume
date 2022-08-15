@@ -2,6 +2,22 @@ import { IJob } from '../models/job';
 
 export const JOBHISTORY: IJob[] = [
   {
+    company: '1-800 Contacts',
+    title: 'Software Engineer III',
+    startDate: new Date('9/9/2020'),
+    endDate: undefined,
+    location: 'Draper, UT',
+    description: `I worked on a team to add new features to the website.  I participated as a continuous improvement 
+        coach to help my team define processes and improve metrics.`,
+    skills: [
+      'Angular 6+',
+      'Typescript',
+      '.NET Core',
+      'C#',
+      'Microsoft SQL'
+    ]
+  },
+  {
     company: 'MaritzCX - An InMoment Company',
     title: 'Senior Software Engineer',
     startDate: new Date('06/11/2018'),
