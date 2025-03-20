@@ -9,11 +9,10 @@ import { ResumeComponent } from './resume.component';
 
 
 @NgModule({
-  declarations: [ResumeComponent, ProfileComponent, JobHistoryComponent, SkillsComponent, JobComponent],
-  imports: [
-    CommonModule
-  ],
-  entryComponents: [ProfileComponent, JobHistoryComponent, SkillsComponent],
-  exports: [ResumeComponent]
+    declarations: [ResumeComponent, ProfileComponent, JobHistoryComponent, SkillsComponent, JobComponent],
+    imports: [
+        CommonModule
+    ],
+    exports: [ResumeComponent]
 })
 export class ResumeModule { }
