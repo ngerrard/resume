@@ -12,10 +12,11 @@ export const SKILLS: string[] = [
   'Redis',
   'Windows Services',
   'Redux',
-  'Visual Basic',
   'Entity Framework',
-  'Console Applications',
   'HTML',
   'JavaScript',
-  'mySQL'
+  'mySQL',
+  'GraphQL',
+  'Application Insights',
+  'Splunk'
 ];

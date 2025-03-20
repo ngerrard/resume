@@ -7,14 +7,28 @@ export const JOBHISTORY: IJob[] = [
     startDate: new Date('9/9/2020'),
     endDate: undefined,
     location: 'Draper, UT',
-    description: `I worked on a team to add new features to the website.  I participated as a continuous improvement 
-        coach to help my team define processes and improve metrics.`,
+    description: `During my time at 1-800 Contacts, I played a pivotal role in enhancing the company's website by 
+        implementing product upgrades and optimizing the sales flow for the Aquasoft product. I developed an intuitive 
+        Express Exam eligibility verification process, accompanied by a customer-focused landing page to streamline the 
+        user journey. Additionally, I engineered a platform service that consolidated business logic across multiple 
+        storefronts, improving operational efficiency and ensuring system consistency. My work included successful 
+        integrations with several third-party services, such as internal services authenticated using OAuth for secure 
+        communications, TurnTo for creating and retrieving customer reviews, and Algolia for categorizing glasses 
+        products to enhance search functionality. I also worked with various internal and external cloud-based services 
+        to bolster system connectivity. Beyond technical contributions, I acted as a Delivery Coach, fostering a 
+        culture of continuous improvement by guiding teams to implement changes that improved delivery frequency and 
+        quality. Moreover, I served as a mentor in the CTAC-U training program, where I contributed to the development 
+        and growth of colleagues within the organization.`,
     skills: [
       'Angular 6+',
       'Typescript',
       '.NET Core',
+      '.NET 8.0',
       'C#',
-      'Microsoft SQL'
+      'Microsoft SQL',
+      'GraphQL',
+      'Splunk',
+      'Application Insights'
     ]
   },
   {
