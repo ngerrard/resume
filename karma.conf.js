@@ -26,7 +26,7 @@ module.exports = function (config) {
     logLevel: config.LOG_INFO,
     autoWatch: true,
     browsers: ['Chrome'],
-    singleRun: false,
+    // singleRun is set by `ng test` from the `--watch` flag (e.g. `npm run test:ci`).
     restartOnFileChange: true
   });
 };

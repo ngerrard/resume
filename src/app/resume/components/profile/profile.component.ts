@@ -1,22 +1,15 @@
-import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Component } from '@angular/core';
 import { PROFILE } from '../../data/mock-profile';
-import { IProfile } from '../../models/profile';
 import { ResumeDataService } from '../../services/resume-data.service';
 
 @Component({
-  selector: 'app-resume-profile',
-  templateUrl: './profile.component.html',
-  styleUrls: ['./profile.component.scss']
+    selector: 'app-resume-profile',
+    templateUrl: './profile.component.html',
+    styleUrls: ['./profile.component.scss'],
+    standalone: false
 })
-export class ProfileComponent implements OnInit {
+export class ProfileComponent {
+  readonly profile = this.profileService.getData(PROFILE);
 
-  profile$: Observable<IProfile>;
-
-  constructor(private profileService: ResumeDataService) { }
-
-  ngOnInit(): void {
-    this.profile$ = this.profileService.getData(PROFILE);
-  }
-
+  constructor(private profileService: ResumeDataService) {}
 }

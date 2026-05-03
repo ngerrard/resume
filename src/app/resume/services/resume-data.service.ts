@@ -1,14 +1,11 @@
-import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
+import { Injectable, signal } from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ResumeDataService {
 
-  constructor() { }
-
   getData<T>(data: T) {
-    return new BehaviorSubject<T>(data);
+    return signal<T>(data);
   }
 }

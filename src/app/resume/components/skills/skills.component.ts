@@ -1,20 +1,15 @@
-import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Component } from '@angular/core';
 import { SKILLS } from '../../data/mock-skills';
 import { ResumeDataService } from '../../services/resume-data.service';
 
 @Component({
-  selector: 'app-resume-skills',
-  templateUrl: './skills.component.html',
-  styleUrls: ['./skills.component.scss']
+    selector: 'app-resume-skills',
+    templateUrl: './skills.component.html',
+    styleUrls: ['./skills.component.scss'],
+    standalone: false
 })
-export class SkillsComponent implements OnInit {
-  skills$: Observable<string[]>;
+export class SkillsComponent {
+  readonly skills = this.skillsService.getData(SKILLS);
 
-  constructor(private skillsService: ResumeDataService) { }
-
-  ngOnInit(): void {
-    this.skills$ = this.skillsService.getData(SKILLS);
-  }
-
+  constructor(private skillsService: ResumeDataService) {}
 }
