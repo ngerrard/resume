@@ -1,4 +1,6 @@
 <h3>EXPERIENCE</h3>
-<section *ngFor="let job of jobs$ | async">
-  <app-resume-job [job]="job"></app-resume-job>
-</section>
+@for (job of jobs(); track job) {
+  <section>
+    <app-resume-job [job]="job"></app-resume-job>
+  </section>
+}

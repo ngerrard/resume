@@ -15,16 +15,18 @@ export const JOBHISTORY: IJob[] = [
         integrations with several third-party services, such as internal services authenticated using OAuth for secure 
         communications, TurnTo for creating and retrieving customer reviews, and Algolia for categorizing glasses 
         products to enhance search functionality. I also worked with various internal and external cloud-based services 
-        to bolster system connectivity. Beyond technical contributions, I acted as a Delivery Coach, fostering a 
-        culture of continuous improvement by guiding teams to implement changes that improved delivery frequency and 
-        quality. Moreover, I served as a mentor in the CTAC-U training program, where I contributed to the development 
-        and growth of colleagues within the organization.`,
+        to bolster system connectivity. I build and maintain backend services on modern .NET, with the current stack 
+        including .NET 8 and .NET 10. I use AI-assisted development with tools such as Cursor and GitHub Copilot to 
+        iterate faster, explore implementations, and keep changes focused and reviewable. Beyond technical contributions, 
+        I acted as a Delivery Coach, fostering a culture of continuous improvement by guiding teams to implement changes 
+        that improved delivery frequency and quality. Moreover, I served as a mentor in the CTAC-U training program, 
+        where I contributed to the development and growth of colleagues within the organization.`,
     skills: [
+      'AI coding assistants (Cursor, GitHub Copilot)',
+      'C#',
+      '.NET 8 / .NET 10',
       'Angular 6+',
       'Typescript',
-      '.NET Core',
-      '.NET 8.0',
-      'C#',
       'Microsoft SQL',
       'GraphQL',
       'Splunk',
