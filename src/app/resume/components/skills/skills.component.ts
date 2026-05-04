@@ -6,7 +6,7 @@ import { ResumeDataService } from '../../services/resume-data.service';
     selector: 'app-resume-skills',
     templateUrl: './skills.component.html',
     styleUrls: ['./skills.component.scss'],
-    standalone: false
+    standalone: true,
 })
 export class SkillsComponent {
   readonly skills = this.skillsService.getData(SKILLS);

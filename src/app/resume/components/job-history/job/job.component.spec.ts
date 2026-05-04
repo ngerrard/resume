@@ -1,4 +1,4 @@
-import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { JobComponent } from './job.component';
 import { IJob } from '../../../models/job';
@@ -7,12 +7,11 @@ describe('JobComponent', () => {
   let component: JobComponent;
   let fixture: ComponentFixture<JobComponent>;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      declarations: [ JobComponent ]
-    })
-    .compileComponents();
-  }));
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      imports: [JobComponent],
+    }).compileComponents();
+  });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(JobComponent);
@@ -24,7 +23,7 @@ describe('JobComponent', () => {
       endDate: new Date('2020-02-01'),
       location: 'Test City',
       description: 'Test description',
-      skills: []
+      skills: [],
     } as IJob;
     fixture.detectChanges();
   });
