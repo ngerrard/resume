@@ -21,9 +21,7 @@
               "base": "dist/resume"
             },
             "index": "src/index.html",
-            "polyfills": [
-              "src/polyfills.ts"
-            ],
+            "polyfills": [],
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
@@ -93,7 +91,8 @@
             "tsConfig": "tsconfig.spec.json",
             "include": [
               "src/**/*.spec.ts"
-            ]
+            ],
+            "providersFile": "src/test-providers.ts"
           }
         },
         "lint": {
