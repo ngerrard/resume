@@ -2,11 +2,14 @@ import { enableProdMode, provideZonelessChangeDetection } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
 
 import { AppComponent } from './app/app.component';
+import { initVercelWebAnalytics } from './app/analytics/vercel-web-analytics';
 import { environment } from './environments/environment';
 
 if (environment.production) {
   enableProdMode();
 }
+
+initVercelWebAnalytics(environment.production);
 
 bootstrapApplication(AppComponent, {
   providers: [provideZonelessChangeDetection()],
